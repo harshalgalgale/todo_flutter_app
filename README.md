@@ -57,28 +57,44 @@ It simply loads **Notes** data from in memory database. Notes will be always loa
     .
     ├── core                       # For all common and core files.
     │   ├── error                  # contains all Exceptions and Failures classes
-    │   ├── presentation           # common presentation files
-    |   │   └── blocs              # common blocs
-    |   │   └── pages              # core pages
-    |   │   └── widgets            # common widgets
+    │   ├── presentation           # Common presentation files
+    |   │   └── blocs              # Common blocs
+    |   │   └── pages              # Core pages
+    |   │   └── widgets            # Common widgets
     │   └── route                  # Routes for navigation
     │   └── theme                  # Theme data
-    │   └── usecases               # common usecases
+    │   └── usecases               # Common usecases
     |
-    ├── feature                    # all features
-        ├── feature1               # Feature 1 (for exp : Todo Feature)
-            ├── data               # Data Files of Feature 1
-            ├   └── datasources    # DataSources Abstract Files and Implementations
-            ├   └── models         # Models for data
-            ├   └── repositories   # Repositories Implementation Classes
-            └── domain             # Domain
-            ├   └── entities       # Entities For Feature 1
-            ├   └── usecases       # Usecases of Feature 1
-            ├   └── repositories   #   Repositories Abstract Classes
-            ├── presentation       # Feature 1 presentation files
-            │   └── blocs          # Feature 1 blocs
-            │   └── pages          # Feature 1 pages
-            │   └── widgets        # Feature 1 widgets
+    ├── data                       # Data Files of Feature 1
+    │   ├── datasources            # DataSources Abstract Files and Implementations
+    │   │   └── feature            # Feature 1 (for exp : Todo Feature)
+    │   │       └── sub-feat.      # Sub feature
+    │   ├── models                 # Models for data
+    │   │   └── feature            # Feature 1 (for exp : Todo Feature)
+    │   │       └── sub-feat.      # Sub feature
+    │   └── repositories           # Repositories Implementation Classes
+    │       └── feature            # Feature 1 (for exp : Todo Feature)
+    │           └── sub-feat.      # Sub feature
+    ├── domain                     # Domain
+    │   ├── entities               # Entities For Feature 1
+    │   │   └── feature            # Feature 1 (for exp : Todo Feature)
+    │   │       └── sub-feat.      # Sub feature
+    │   ├── usecases               # Usecases of Feature 1
+    │   │   └── feature            # Feature 1 (for exp : Todo Feature)
+    │   │       └── sub-feat.      # Sub feature
+    │   └── repositories           # Repositories Abstract Classes
+    │       └── feature            # Feature 1 (for exp : Todo Feature)
+    │           └── sub-feat.      # Sub feature
+    └── presentation               # Presentation files
+        ├── blocs                  # Blocs
+        │   └── feature            # Feature 1 (for exp : Todo Feature)
+        │       └── sub-feat.      # Sub feature
+        ├── pages                  # Pages
+        │   └── feature            # Feature 1 (for exp : Todo Feature)
+        │       └── sub-feat.      # Sub feature
+        └── widgets                # Widgets
+            └── feature            # Feature 1 (for exp : Todo Feature)
+                └── sub-feat.      # Sub feature
 
 ## Architecture
 
@@ -107,9 +123,3 @@ See [Contributing Guidelines](CONTRIBUTING.md).
                 ├── docChange1       # docChange 2 created from dev
 
 Note : Create pull request for feature,bugfix,docChange to only dev branch.
-
-## Contact
-
-If you need any help, you can connect with me.
-
-Visit:- [https://www.linkedin.com/in/shubhamchhimpa/](https://www.linkedin.com/in/shubhamchhimpa/)
