@@ -33,15 +33,6 @@
 
 # DoneIt 📝
 
-![CI](https://github.com/shubham-chhimpa/done_it/workflows/CI/badge.svg)
-
-[![GitHub license](https://img.shields.io/badge/License-MIT-blue.svg)](/https://github.com/shubham-chhimpa/done_it/LICENSE.md)
-![Github Followers](https://img.shields.io/github/followers/shubham-chhimpa?label=Follow&style=social)
-![GitHub stars](https://img.shields.io/github/stars/shubham-chhimpa/done_it?style=social)
-![GitHub forks](https://img.shields.io/github/forks/shubham-chhimpa/done_it?style=social)
-![GitHub watchers](https://img.shields.io/github/watchers/shubham-chhimpa/done_it?style=social)
-![Twitter Follow](https://img.shields.io/twitter/follow/shubham_chhimpa?label=Follow&style=social)
-
 **DoneIt** is a sample note app 📝 Flutter application 📱 built to demonstrate use of _Clean Architecture_ tools. Dedicated to all Flutter Developers with ❤️.
 
 ## About
@@ -123,3 +114,9 @@ See [Contributing Guidelines](CONTRIBUTING.md).
                 ├── docChange1       # docChange 2 created from dev
 
 Note : Create pull request for feature,bugfix,docChange to only dev branch.
+
+## Acknowledgement
+
+This repo is the update to the original repo by Shubham Chhimpa.[![GitHub](https://img.shields.io/github/followers/shubham-chhimpa?label=Follow&style=social)](/https://github.com/shubham-chhimpa/done_it)
+
+This repo is updated with the latest flutter packages as of Oct. 2021.
