@@ -1,15 +1,15 @@
 import 'package:done_it/core/presentation/loading_page.dart';
 import 'package:done_it/core/theme/dark_theme_data.dart';
 import 'package:done_it/core/theme/light_theme_data.dart';
-import 'package:done_it/feature/todo/presentation/blocs/todo_form/todo_form_bloc.dart';
+import 'package:done_it/presentation/blocs/todo_form/todo_form_bloc.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'core/presentation/some_went_wrong_page.dart';
 import 'core/route/route.dart';
-import 'feature/setting/domain/entities/setting.dart';
-import 'feature/setting/presentation/blocs/setting/setting_bloc.dart';
-import 'feature/todo/presentation/blocs/todo/todo_bloc.dart';
-import 'feature/todo/presentation/pages/todo_home_page.dart';
+import 'domain/entities/setting/setting.dart';
+import 'presentation/blocs/setting/setting_bloc.dart';
+import 'presentation/blocs/todo/todo_bloc.dart';
+import 'presentation/pages/todo/todo_home_page.dart';
 import 'injection_container.dart' as di;
 import 'injection_container.dart';
 
