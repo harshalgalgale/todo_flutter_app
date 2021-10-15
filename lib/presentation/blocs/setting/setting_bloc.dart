@@ -1,10 +1,10 @@
 import 'dart:async';
 
 import 'package:bloc/bloc.dart';
-import 'package:done_it/core/usecases/usecase.dart';
-import 'package:done_it/domain/entities/setting/setting.dart';
-import 'package:done_it/domain/usecases/setting/change_app_theme_mode.dart';
-import 'package:done_it/domain/usecases/setting/get_setting.dart';
+import '../../../core/usecases/usecase.dart';
+import '../../../domain/entities/setting/setting.dart';
+import '../../../domain/usecases/setting/change_app_theme_mode.dart';
+import '../../../domain/usecases/setting/get_setting.dart';
 import 'package:equatable/equatable.dart';
 
 part 'setting_event.dart';

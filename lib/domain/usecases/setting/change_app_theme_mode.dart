@@ -1,8 +1,8 @@
 import 'package:dartz/dartz.dart';
-import 'package:done_it/core/error/failures.dart';
-import 'package:done_it/core/usecases/usecase.dart';
-import 'package:done_it/domain/entities/setting/setting.dart';
-import 'package:done_it/domain/repositories/setting/setting_repository.dart';
+import '../../../core/error/failures.dart';
+import '../../../core/usecases/usecase.dart';
+import '../../entities/setting/setting.dart';
+import '../../repositories/setting/setting_repository.dart';
 import 'package:equatable/equatable.dart';
 
 class ChangeAppThemeMode implements UseCase<void, Params> {

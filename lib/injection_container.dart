@@ -1,12 +1,12 @@
-import 'package:done_it/domain/usecases/setting/change_app_theme_mode.dart';
-import 'package:done_it/data/datasources/todo/todo_local_data_source.dart';
-import 'package:done_it/data/respositories/todo/todo_repository_impl.dart';
-import 'package:done_it/domain/repositories/todo/todo_repository.dart';
-import 'package:done_it/domain/usecases/todo/add_todo.dart';
-import 'package:done_it/domain/usecases/todo/get_all_todo.dart';
-import 'package:done_it/domain/usecases/todo/get_todo.dart';
-import 'package:done_it/presentation/blocs/todo/todo_bloc.dart';
-import 'package:done_it/presentation/blocs/todo_form/todo_form_bloc.dart';
+import 'domain/usecases/setting/change_app_theme_mode.dart';
+import 'data/datasources/todo/todo_local_data_source.dart';
+import 'data/respositories/todo/todo_repository_impl.dart';
+import 'domain/repositories/todo/todo_repository.dart';
+import 'domain/usecases/todo/add_todo.dart';
+import 'domain/usecases/todo/get_all_todo.dart';
+import 'domain/usecases/todo/get_todo.dart';
+import 'presentation/blocs/todo/todo_bloc.dart';
+import 'presentation/blocs/todo_form/todo_form_bloc.dart';
 import 'package:get_it/get_it.dart';
 
 import 'data/datasources/setting/setting_local_data_source.dart';

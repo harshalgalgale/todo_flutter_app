@@ -1,4 +1,4 @@
-import 'package:done_it/domain/entities/setting/setting.dart';
+import '../../../domain/entities/setting/setting.dart';
 
 class SettingModel extends Setting {
   final AppThemeMode appThemeMode;

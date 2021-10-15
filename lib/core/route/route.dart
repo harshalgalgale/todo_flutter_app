@@ -1,7 +1,7 @@
-import 'package:done_it/presentation/pages/setting/setting_page.dart';
-import 'package:done_it/presentation/pages/todo/add_todo_page.dart';
-import 'package:done_it/presentation/pages/todo/todo_home_page.dart';
-import 'package:done_it/presentation/pages/todo/view_todo_page.dart';
+import '../../presentation/pages/setting/setting_page.dart';
+import '../../presentation/pages/todo/add_todo_page.dart';
+import '../../presentation/pages/todo/todo_home_page.dart';
+import '../../presentation/pages/todo/view_todo_page.dart';
 import 'package:flutter/material.dart';
 
 class AppRouter {

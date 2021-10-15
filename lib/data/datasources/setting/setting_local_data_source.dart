@@ -1,5 +1,5 @@
-import 'package:done_it/data/models/setting/setting_model.dart';
-import 'package:done_it/domain/entities/setting/setting.dart';
+import '../../models/setting/setting_model.dart';
+import '../../../domain/entities/setting/setting.dart';
 
 abstract class SettingLocalDataSource {
   ///Throws [DataBaseException] if no data found

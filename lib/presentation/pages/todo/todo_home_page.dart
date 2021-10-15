@@ -1,10 +1,10 @@
-import 'package:done_it/presentation/pages/setting/setting_page.dart';
-import 'package:done_it/data/models/todo/todo_model.dart';
-import 'package:done_it/presentation/blocs/todo/todo_bloc.dart';
-import 'package:done_it/presentation/blocs/todo_form/todo_form_bloc.dart';
-import 'package:done_it/presentation/pages/todo/add_todo_page.dart';
-import 'package:done_it/presentation/pages/todo/view_todo_page.dart';
-import 'package:done_it/presentation/widgets/todo/todo_card.dart';
+import '../setting/setting_page.dart';
+import '../../../data/models/todo/todo_model.dart';
+import '../../blocs/todo/todo_bloc.dart';
+import '../../blocs/todo_form/todo_form_bloc.dart';
+import 'add_todo_page.dart';
+import 'view_todo_page.dart';
+import '../../widgets/todo/todo_card.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 

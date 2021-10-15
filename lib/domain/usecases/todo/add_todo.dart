@@ -1,7 +1,7 @@
 import 'package:dartz/dartz.dart';
-import 'package:done_it/core/error/failures.dart';
-import 'package:done_it/core/usecases/usecase.dart';
-import 'package:done_it/domain/repositories/todo/todo_repository.dart';
+import '../../../core/error/failures.dart';
+import '../../../core/usecases/usecase.dart';
+import '../../repositories/todo/todo_repository.dart';
 import 'package:equatable/equatable.dart';
 
 class AddTodo implements UseCase<void, Params> {

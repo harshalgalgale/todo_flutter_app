@@ -1,7 +1,7 @@
 import 'package:collection/collection.dart';
-import 'package:done_it/core/error/exceptions.dart';
-import 'package:done_it/data/models/todo/todo_model.dart';
-import 'package:done_it/domain/entities/todo/todo.dart';
+import '../../../core/error/exceptions.dart';
+import '../../models/todo/todo_model.dart';
+import '../../../domain/entities/todo/todo.dart';
 
 abstract class TodoLocalDataSource {
   ///Throws [DataBaseException] if no data found

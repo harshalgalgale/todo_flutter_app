@@ -1,9 +1,9 @@
 import 'package:dartz/dartz.dart';
-import 'package:done_it/core/error/exceptions.dart';
-import 'package:done_it/core/error/failures.dart';
-import 'package:done_it/data/datasources/setting/setting_local_data_source.dart';
-import 'package:done_it/domain/entities/setting/setting.dart';
-import 'package:done_it/domain/repositories/setting/setting_repository.dart';
+import '../../../core/error/exceptions.dart';
+import '../../../core/error/failures.dart';
+import '../../datasources/setting/setting_local_data_source.dart';
+import '../../../domain/entities/setting/setting.dart';
+import '../../../domain/repositories/setting/setting_repository.dart';
 
 class SettingRepositoryImpl implements SettingRepository {
   final SettingLocalDataSource settingLocalDataSource;

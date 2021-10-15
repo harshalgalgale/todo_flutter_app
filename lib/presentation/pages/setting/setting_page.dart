@@ -1,5 +1,5 @@
-import 'package:done_it/domain/entities/setting/setting.dart';
-import 'package:done_it/presentation/blocs/setting/setting_bloc.dart';
+import '../../../domain/entities/setting/setting.dart';
+import '../../blocs/setting/setting_bloc.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 

@@ -1,4 +1,4 @@
-import 'package:done_it/domain/entities/todo/todo.dart';
+import '../../../domain/entities/todo/todo.dart';
 
 class TodoModel extends Todo {
   final String task;

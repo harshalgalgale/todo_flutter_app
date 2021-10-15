@@ -1,8 +1,8 @@
 import 'dart:async';
 import 'package:bloc/bloc.dart';
-import 'package:done_it/core/usecases/usecase.dart';
-import 'package:done_it/domain/usecases/todo/get_all_todo.dart';
-import 'package:done_it/domain/entities/todo/todo.dart';
+import '../../../core/usecases/usecase.dart';
+import '../../../domain/usecases/todo/get_all_todo.dart';
+import '../../../domain/entities/todo/todo.dart';
 import 'package:equatable/equatable.dart';
 
 part 'todo_event.dart';

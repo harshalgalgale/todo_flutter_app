@@ -1,7 +1,7 @@
 import 'dart:async';
 
 import 'package:bloc/bloc.dart';
-import 'package:done_it/domain/usecases/todo/add_todo.dart';
+import '../../../domain/usecases/todo/add_todo.dart';
 import 'package:equatable/equatable.dart';
 
 part 'todo_form_event.dart';

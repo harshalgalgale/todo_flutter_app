@@ -1,7 +1,7 @@
-import 'package:done_it/core/presentation/loading_page.dart';
-import 'package:done_it/core/theme/dark_theme_data.dart';
-import 'package:done_it/core/theme/light_theme_data.dart';
-import 'package:done_it/presentation/blocs/todo_form/todo_form_bloc.dart';
+import 'core/presentation/loading_page.dart';
+import 'core/theme/dark_theme_data.dart';
+import 'core/theme/light_theme_data.dart';
+import 'presentation/blocs/todo_form/todo_form_bloc.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'core/presentation/some_went_wrong_page.dart';

@@ -1,9 +1,9 @@
 import 'package:dartz/dartz.dart';
-import 'package:done_it/core/error/exceptions.dart';
-import 'package:done_it/core/error/failures.dart';
-import 'package:done_it/data/datasources/todo/todo_local_data_source.dart';
-import 'package:done_it/domain/entities/todo/todo.dart';
-import 'package:done_it/domain/repositories/todo/todo_repository.dart';
+import '../../../core/error/exceptions.dart';
+import '../../../core/error/failures.dart';
+import '../../datasources/todo/todo_local_data_source.dart';
+import '../../../domain/entities/todo/todo.dart';
+import '../../../domain/repositories/todo/todo_repository.dart';
 
 class TodoRepositoryImpl implements TodoRepository {
   final TodoLocalDataSource todoLocalDataSource;
