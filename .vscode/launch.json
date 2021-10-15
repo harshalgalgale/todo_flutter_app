@@ -10,10 +10,16 @@
             "type": "dart"
         },
         {
-            "name": "done_it (profile mode)",
+            "name": "Profile done_it",
             "request": "launch",
             "type": "dart",
             "flutterMode": "profile"
+        },
+        {
+            "name": "Test done_it",
+            "request": "launch",
+            "type": "dart",
+            "program": "./test/"
         }
     ]
 }
